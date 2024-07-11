@@ -1,0 +1,27 @@
+$background-color: hsl(47, 88%, 63%);
+$box-background-color: white;
+
+body{
+background-color: $background-color;
+}
+
+.white-center-box{
+    background-color: $box-background-color;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px;
+    padding: 20px 10px 10px;
+    height: 580px;
+    width: 400px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
