@@ -17,6 +17,14 @@ background-color: $background-color;
     margin-top: 5%;
 }
 
+.design-box{
+    margin: auto;
+    height: 360px;
+    width: 95%;
+    background-image: url("../images/illustration-article.svg");
+    background-size: cover;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
