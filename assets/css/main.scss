@@ -13,19 +13,25 @@ $box-background-color: white;
 $semibold-font: url(/assets/fonts/static/Figtree-SemiBold.ttf);
 
 body{
-background-color: $background-color;
+    background-color: $background-color;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* Garante que o body ocupe a altura total da tela */
+        margin: 0;
+        /* Remove as margens padrão do body */
 }
 
 .white-center-box{
     background-color: $box-background-color;
-    border-radius: 10px;
-    border: 2px solid black;
-    box-shadow: 10px 10px;
-    padding: 20px 10px 10px;
-    height: 540px;
-    width: 400px;
-    margin: auto;
-    margin-top: 5%;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 10px 10px;
+        padding: 20px 10px 10px;
+        height: 540px;
+        width: 400px;
 }
 
 .design-box{
