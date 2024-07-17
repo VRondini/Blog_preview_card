@@ -88,12 +88,58 @@ body {
 }
 
 .attribution {
-  font-size: 11px;
+  margin-top: 30px;
+  font-size: 12px;
   text-align: center;
+  font-family: SemiBoldFont;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  .white-center-box {
+    height: 400px;
+    width: 260px;
+  }
+  .design-box {
+    height: 130px;
+  }
+  .learning-tag {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 70px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 11px;
+  }
+  .publishment-date {
+    font-size: 11px;
+  }
+  .blog-title {
+    font-size: 20px;
+  }
+  .blog-preview-text {
+    font-size: 11px;
+  }
+  .blog-author-avatar {
+    height: 40px;
+  }
+  .author-name {
+    font-family: ExtraBoldFont;
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .attribution {
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    font-family: SemiBoldFont;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
